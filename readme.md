@@ -49,7 +49,8 @@ gcc -o stego main.c encode.c decode.c
 .jpg
 (You can try others too — as long as file size fits in the BMP image)
 
-Magic String Support
+## Magic String Support
+
 During encoding, you can enter a custom magic string from the command line when prompted.
 This string is embedded into the image and later used during decoding to validate if hidden data exists.
 
