@@ -42,11 +42,13 @@ gcc -o stego main.c encode.c decode.c
 ./stego -d <output.bmp> <recovered_filename>
 ```
 
-🧪 Supported File Types for Encoding
+## 🧪 Supported File Types for Encoding
+```
 .txt
 .sh
 .c
 .jpg
+```
 (You can try others too — as long as file size fits in the BMP image)
 
 ## Magic String Support
